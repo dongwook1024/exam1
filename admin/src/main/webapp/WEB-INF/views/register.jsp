@@ -9,7 +9,8 @@
 <body>
 	
 	
-	<form action="${pageContext.request.contextPath }/user" method="post">
+	<form action="${pageContext.request.contextPath }/register" method="post">
+	
 		<div>
 			<label for="name">NAME</label>
 			<input type="text" id="name" name="name" placeholder="이름 입력" />
